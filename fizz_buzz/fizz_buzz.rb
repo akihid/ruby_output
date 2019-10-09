@@ -10,6 +10,6 @@ def fizz_buzz(n)
   end
 end
 
-for i in 1..100 do
-  fizz_buzz(i)
-end
+# for i in 1..100 do
+#   fizz_buzz(i)
+# end
