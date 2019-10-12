@@ -1,4 +1,4 @@
-require './fizz_buzz'
+require './lib/fizz_buzz'
 
 describe 'fizz_buzz' do
   context 'fizzが出力されるケース' do
