@@ -1,10 +1,10 @@
 class BonusDrink
 
-  def initialize(drinks)
-    @drinks = drinks  # ドリンクの数
-    @drank_count = 0  # 飲んだドリンクの数
-    @empty_count = 0  # 空の缶の数
-    @bonus_count = 0  # 追加で飲める数
+  def initialize(drinks, drank_count: 0, empty_count: 0, bonus_count: 0)
+    @drinks = drinks            # ドリンクの数
+    @drank_count = drank_count  # 飲んだドリンクの数
+    @empty_count = empty_count  # 空の缶の数
+    @bonus_count = bonus_count  # 追加で飲める数
   end
 
   def self.total_count_for(amount)
