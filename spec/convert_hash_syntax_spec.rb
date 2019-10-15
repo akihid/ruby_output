@@ -16,7 +16,7 @@ describe 'convert_hash_syntax_spec' do
         gender: :female
       }
     TEXT
-    it 'a' do
+    it 'hash変換に成功すること' do
       expect(convert_hash_syntax(old_syntax)).to eq(expected)
     end
   end
